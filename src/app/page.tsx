@@ -1,8 +1,12 @@
 import Image from 'next/image';
+import { FaXTwitter } from "react-icons/fa6";
+import { BiLogoInstagram, BiLogoYoutube, BiLogoLinkedinSquare } from "react-icons/bi";
 
 export default function Home() {
   return (
     <div className='flex flex-col'>
+      
+      { /* Navbar */ }
       <nav className="text-black px-4 py-6 font-bold">
         <div className="container mx-auto flex items-center justify-between">
           {/* Left Items */}
@@ -33,6 +37,8 @@ export default function Home() {
 
       <div className="container align-self mx-auto h-screen flex flex-col flex-1 gap-y-20">
         <div className="flex items-center pt-20 font-bold">
+          
+          { /* Hero */ }
           <div className="w-full space-y-2">
             <h1 className="text-6xl text-center leading-tight">Add AI Chat To Your Website In Minutes</h1>
 
@@ -52,6 +58,7 @@ export default function Home() {
             </div>
           </div>
 
+          { /* Notion Sketch */ }
           <div className="w-full flex justify-center items-center">
             <Image
               src="/landing_page_sketch.png"
@@ -62,6 +69,7 @@ export default function Home() {
           </div>
         </div>
 
+        { /* Landing Page Demo */ }
         <div className="w-full flex justify-center items-center">
           <Image
             src="/landing_page_demo.png"
@@ -71,6 +79,7 @@ export default function Home() {
           />
         </div>
 
+        { /* Conversationability Demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
             <h2 className="text-5xl">Turn Your Content Into</h2>
@@ -92,6 +101,8 @@ export default function Home() {
           </div>
         </div>
 
+
+        { /* Human like conversation demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
             <h2 className="text-5xl">Natural Conversations</h2>
@@ -112,6 +123,7 @@ export default function Home() {
           </div>
         </div>
 
+      { /* Integration demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
             <h2 className="text-5xl">Effortless Integration</h2>
@@ -132,6 +144,7 @@ export default function Home() {
           </div>
         </div>
 
+        { /* Security demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
             <h2 className="text-5xl">Secure By Design</h2>
@@ -152,6 +165,7 @@ export default function Home() {
           </div>
         </div>
 
+        { /* How it works */ }
         <div className="w-full space-y-6 font-bold pt-24 mb-20">
           <div className='space-y-2'>
             <h2 className="text-5xl text-center">How It Works</h2>
@@ -221,6 +235,7 @@ export default function Home() {
           </div>
         </div>
 
+        { /* Use cases */ }
         <div className="w-full space-y-6 space-x-6 font-bold flex">
           <div className='w-full flex flex-col '>
             <div className='h-80 flex flex-col pt-20'>
@@ -268,6 +283,7 @@ export default function Home() {
           </div>
         </div>
 
+        { /* Call to action */ }
         <div className="w-full space-y-6 font-bold pt-24 mb-20 flex flex-col justify-center items-center">
           <div className='space-y-2'>
             <h2 className="text-6xl text-center">Work Smarter, Not Harder</h2>
@@ -283,32 +299,41 @@ export default function Home() {
         </div>
       </div>
 
+      { /* Footer */ }
       <footer className="bg-gray-100 text-black px-4 py-6 font-bold">
-        <div className="container mx-auto flex items-center justify-between">
-          {/* Left Items */}
-          <div className="flex space-x-8 items-center">
+        <div className="container mx-auto flex justify-between">
+          <div className="flex flex-col items-center space-y-2">
             <button className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md hover:bg-zinc-900">
               Logo
             </button>
+
+            <div className='flex justify-around w-full'>
+              <a href=""><FaXTwitter className='text-lg' /></a>
+              <a href=""><BiLogoInstagram className='text-lg' /></a>
+              <a href=""><BiLogoYoutube className='text-lg' /></a>
+              <a href=""><BiLogoLinkedinSquare className='text-lg' /></a>
+            </div>
           </div>
 
-          {/* Right Item */}
+          {/* Left Items */}
           <div className='w-full flex justify-evenly font-normal'>
-            <ul className="">
+            <ul>
               <p className='text-xl pb-2 font-bold'>Use Cases</p>
               <li className='text-sm'>Customer Service</li>
               <li className='text-sm'>Small Business</li>
               <li className='text-sm'>Educators</li>
             </ul>
 
-            <ul className="">
+          {/* Middle Items */}
+            <ul>
               <p className='text-xl pb-2 font-bold'>Resources</p>
               <li className='text-sm'>Demo</li>
               <li className='text-sm'>Tutorial</li>
               <li className='text-sm'>Documentation</li>
             </ul>
 
-            <ul className="">
+          {/* Right Items */}
+            <ul>
               <p className='text-xl pb-2 font-bold'>Contact</p>
               <li className='text-sm'>Email</li>
               <li className='text-sm'>LinkedIn</li>
