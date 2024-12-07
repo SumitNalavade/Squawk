@@ -98,7 +98,7 @@ export default function Home() {
 
             <div className="text-gray-500">
               <p>Deliver engaging, human-like interactions with AI-powered assistants that</p>
-              <p>understand context and respond naturally to your users' needs.</p>
+              <p>understand context and respond naturally to your users&apos; needs.</p>
             </div>
           </div>
 
@@ -157,7 +157,7 @@ export default function Home() {
             <h2 className="text-5xl text-center">How It Works</h2>
 
             <div className="text-gray-500 text-center">
-              <p>We do the heavy lifting so you don't have to.</p>
+              <p>We do the heavy lifting so you don&apos;t have to.</p>
             </div>
           </div>
 
