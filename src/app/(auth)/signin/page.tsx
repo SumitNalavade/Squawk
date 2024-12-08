@@ -1,14 +1,8 @@
 import Link from "next/link";
 
-const Signup: React.FC = () => {
+const Signin: React.FC = () => {
     return (
         <div className="w-full flex flex-col justify-center items-center space-y-6">
-            <input
-                type="text"
-                placeholder="Name"
-                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none focus:ring-2 focus:ring-[#1C1C1C] shadow-md"
-            />
-
             <input
                 type="email"
                 placeholder="Email"
@@ -24,9 +18,9 @@ const Signup: React.FC = () => {
                 Continue
             </button>
 
-            <p className="font-normal text-sm">Already have an account? <Link href="/signin" className="font-bold underline">Sign in here</Link>.</p>
+            <p className="font-normal text-sm">Don't have an account? <Link href="/signup" className="font-bold underline">Sign up here</Link>.</p>
         </div>
     )
 }
 
-export default Signup;
+export default Signin;

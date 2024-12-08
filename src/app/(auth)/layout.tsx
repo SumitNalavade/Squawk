@@ -36,9 +36,6 @@ export default function DashboardLayout({
 
                 { children }
 
-                <button className="bg-white border py-2 w-full max-w-md rounded-xl mt-5 flex justify-center items-center text-sm hover:bg-gray-200 hover:scale-105 duration-300 text-[#1C1C1C] shadow-md">
-                    Continue
-                </button>
             </div>
 
             <div className="flex items-center justify-center w-full lg:w-1/2">
