@@ -48,7 +48,7 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className="h-screen">
+        <div >
           {children}
         </div>
 
