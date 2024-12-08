@@ -18,7 +18,7 @@ const Signin: React.FC = () => {
                 Continue
             </button>
 
-            <p className="font-normal text-sm">Don't have an account? <Link href="/signup" className="font-bold underline">Sign up here</Link>.</p>
+            <p className="font-normal text-sm">Don&apos;t have an account? <Link href="/signup" className="font-bold underline">Sign up here</Link>.</p>
         </div>
     )
 }

@@ -17,9 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+      <body className="flex flex-col min-h-screen">
         { /* Navbar */}
         <div className="text-black px-4 py-6 font-bold">
           <div className="container mx-auto flex items-center justify-between">
@@ -47,12 +45,13 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div >
+        { /* Content Area */}
+        <main className="flex-grow flex items-center justify-center">
           {children}
-        </div>
+        </main>
 
         { /* Footer */}
-        <div className="bg-gray-100 text-black px-4 py-6 font-bold">
+        <footer className="bg-gray-100 text-black px-4 py-6 font-bold">
           <div className="container mx-auto flex justify-between">
             <div className="flex flex-col items-center space-y-2">
               <button className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md hover:bg-zinc-900">
@@ -67,7 +66,6 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Left Items */}
             <div className='w-full flex justify-evenly font-normal'>
               <ul>
                 <p className='text-xl pb-2 font-bold'>Use Cases</p>
@@ -76,7 +74,6 @@ export default function RootLayout({
                 <li className='text-sm'>Educators</li>
               </ul>
 
-              {/* Middle Items */}
               <ul>
                 <p className='text-xl pb-2 font-bold'>Resources</p>
                 <li className='text-sm'>Demo</li>
@@ -84,7 +81,6 @@ export default function RootLayout({
                 <li className='text-sm'>Documentation</li>
               </ul>
 
-              {/* Right Items */}
               <ul>
                 <p className='text-xl pb-2 font-bold'>Contact</p>
                 <li className='text-sm'>Email</li>
@@ -94,9 +90,9 @@ export default function RootLayout({
               </ul>
             </div>
           </div>
-        </div>
-
+        </footer>
       </body>
+
     </html>
   );
 }
