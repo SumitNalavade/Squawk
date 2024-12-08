@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,9 +21,9 @@ export default function Home() {
                 View Demo
               </button>
 
-              <button className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md hover:bg-zinc-900">
+              <Link href="/signup" className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md hover:bg-zinc-900">
                 Get Started
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -261,9 +262,9 @@ export default function Home() {
             </div>
           </div>
 
-          <button className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
+          <Link href={"/signup"} className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
             Get Started For Free Now - No Coding Required!
-          </button>
+          </Link>
         </div>
       </div>
     </div>

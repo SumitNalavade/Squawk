@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 import { FaXTwitter } from "react-icons/fa6";
@@ -24,9 +25,9 @@ export default function RootLayout({
           <div className="container mx-auto flex items-center justify-between">
             {/* Left Items */}
             <div className="flex space-x-8 items-center">
-              <button className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md hover:bg-zinc-900">
+              <Link href={'/'} className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md hover:bg-zinc-900">
                 Logo
-              </button>
+              </Link>
 
               <a href="#" className="hover:text-zinc-900">
                 Product
@@ -40,11 +41,9 @@ export default function RootLayout({
             </div>
 
             {/* Right Item */}
-            <div>
-              <button className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
-                Try it for free
-              </button>
-            </div>
+            <Link href={"/signup"} className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
+              Try it for free
+            </Link>
           </div>
         </div>
 
