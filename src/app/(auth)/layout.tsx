@@ -6,15 +6,15 @@ export default function DashboardLayout({
     children: React.ReactNode
 }) {
     return (
-        <section className="h-screen flex flex-col lg:flex-row">
-            <div className="flex flex-col justify-center items-center space-y-12 w-full lg:w-1/2 bg-[#1C1C1C] text-white font-bold px-8">
-                <div className="space-y-4">
+        <section className="h-screen flex flex-col lg:flex-row w-full">
+            <div className="flex flex-col justify-center items-center space-y-12 w-full lg:w-1/2 bg-[#0085FF] text-white font-bold px-8">
+                <div className="space-y-4 max-w-2xl">
                     <div>
                         <p className="text-5xl text-center leading-snug font-extrabold">Smarter Conversations, Simplified</p>
                     </div>
-                    <div>
-                        <p className="text-center text-gray-300">Create custom AI agents trained on your content.</p>
-                        <p className="text-center text-gray-300">Add them to your site. No coding required.</p>
+                    <div className="text-white">
+                        <p className="text-center">Create custom AI agents trained on your content.</p>
+                        <p className="text-center">Add them to your site. No coding required.</p>
                     </div>
                 </div>
 
@@ -29,9 +29,9 @@ export default function DashboardLayout({
                 </button>
 
                 <div className="flex items-center w-full max-w-md space-x-2">
-                    <hr className="flex-grow border-gray-600" />
-                    <p className="text-sm text-gray-400">OR</p>
-                    <hr className="flex-grow border-gray-600" />
+                    <hr className="flex-grow border-white" />
+                    <p className="text-sm text-white">OR</p>
+                    <hr className="flex-grow border-white" />
                 </div>
 
                 { children }
