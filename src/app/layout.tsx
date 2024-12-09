@@ -24,14 +24,14 @@ export default function RootLayout({
           <div className="container mx-auto flex items-center justify-between">
             {/* Left Items */}
             <div className="flex space-x-8 items-center">
-              <div className="pb-2 mr-4">
+              <Link href={"/"} className="pb-2 mr-4">
                 <Image
                   src="/large_logo.png"
                   alt="large logo"
                   width={150}
                   height={150}
                 />
-              </div>
+              </Link>
 
               <a href="#" className="hover:text-zinc-900">
                 Product
