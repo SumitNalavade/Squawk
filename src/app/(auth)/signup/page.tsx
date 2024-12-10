@@ -6,21 +6,21 @@ const Signup: React.FC = () => {
             <input
                 type="text"
                 placeholder="Name"
-                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none focus:ring-2 focus:ring-[#1C1C1C] shadow-md"
+                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none"
             />
 
             <input
                 type="email"
                 placeholder="Email"
-                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none focus:ring-2 focus:ring-[#1C1C1C] shadow-md"
+                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none"
             />
             <input
                 type="password"
                 placeholder="Password"
-                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none focus:ring-2 focus:ring-[#1C1C1C] shadow-md"
+                className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-xl text-sm hover:scale-105 duration-300 focus:outline-none"
             />
 
-            <button className="bg-white border py-2 w-full max-w-md rounded-xl mt-5 flex justify-center items-center text-sm hover:bg-gray-200 hover:scale-105 duration-300 text-[#1C1C1C] shadow-md">
+            <button className="bg-white border py-2 w-full max-w-md rounded-xl mt-5 flex justify-center items-center text-sm hover:bg-gray-200 hover:scale-105 duration-300 text-gray-500">
                 Continue
             </button>
 
