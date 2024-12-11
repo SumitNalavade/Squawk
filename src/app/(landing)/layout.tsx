@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import "./globals.css";
+import "../globals.css";
 
 import { FaXTwitter } from "react-icons/fa6";
 import { BiLogoInstagram, BiLogoYoutube, BiLogoLinkedinSquare } from "react-icons/bi";
