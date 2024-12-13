@@ -11,12 +11,6 @@ const TonePage: React.FC = () => {
                     <p className="text-gray-500 text-sm">Customize how your agent responds to questions</p>
                 </div>
 
-                <div>
-                    <button className="bg-[#2c2c2c] text-white px-6 py-2 rounded-lg w-full">
-                        Upload
-                    </button>
-                </div>
-
                 <div className="grid grid-cols-3 gap-6 text-[#2c2c2c]">
                     <div className="p-4 space-y-2 border rounded-2xl cursor-pointer hover:bg-gray-200 bg-gray-200">
                         <div className="flex gap-x-2">

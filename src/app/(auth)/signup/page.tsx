@@ -20,7 +20,7 @@ const Signup: React.FC = () => {
                 className="bg-white text-[#1C1C1C] border py-2 px-4 w-full max-w-md rounded-lg text-sm hover:scale-105 duration-300 focus:outline-none"
             />
 
-            <button className="bg-white border py-2 w-full max-w-md rounded-lg mt-5 flex justify-center items-center text-sm hover:bg-gray-200 hover:scale-105 duration-300 text-gray-500">
+            <button className="bg-white border py-2 w-full max-w-md rounded-lg mt-5 flex justify-center items-center text-sm hover:bg-gray-200 hover:scale-105 duration-300 text-gray-500 hover:text-[#2c2c2c]">
                 Continue
             </button>
 

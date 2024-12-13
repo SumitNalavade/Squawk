@@ -1,6 +1,7 @@
+import Link from "next/link";
 import { FiBox, FiTrash2 } from "react-icons/fi";
 
-const Create: React.FC = () => {
+const SourcesPage: React.FC = () => {
     return (
         <div className="w-full flex flex-col items-center py-4 space-y-4 container max-w-5xl mx-auto">
             <div className="flex px-4 py-3 rounded-xl border border-gray-200 overflow-hidden w-full mx-auto font-[sans-serif]">
@@ -91,43 +92,43 @@ const Create: React.FC = () => {
 
                 <div className="mb-6 flex w-full justify-between items-center gap-x-4">
                     <div className="w-full space-y-4">
-                        <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                        <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                             <FiBox className="text-3xl" />
 
                             <div className="text-sm">
                                 <p className="font-bold">ECEN 314 Virtual TA</p>
                                 <p>A virtual teaching assistant for ECEN 314 (Signals & Systems)</p>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                        <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                             <FiBox className="text-3xl" />
 
                             <div className="text-sm">
                                 <p className="font-bold">ECEN 314 Virtual TA</p>
                                 <p>A virtual teaching assistant for ECEN 314 (Signals & Systems)</p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                     <div className="w-full space-y-4">
-                        <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                        <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                             <FiBox className="text-3xl" />
 
                             <div className="text-sm">
                                 <p className="font-bold">ECEN 314 Virtual TA</p>
                                 <p>A virtual teaching assistant for ECEN 314 (Signals & Systems)</p>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                        <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                             <FiBox className="text-3xl" />
 
                             <div className="text-sm">
                                 <p className="font-bold">ECEN 314 Virtual TA</p>
                                 <p>A virtual teaching assistant for ECEN 314 (Signals & Systems)</p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -135,7 +136,7 @@ const Create: React.FC = () => {
             <div className="w-full space-y-4">
                 <p className="font-bold text-xl">Your Projects</p>
 
-                <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                     <FiBox className="text-3xl" />
 
                     <div className="text-sm w-full">
@@ -146,9 +147,9 @@ const Create: React.FC = () => {
                     <div className="cursor-pointer">
                         <FiTrash2 className="text-3xl" />
                     </div>
-                </div>
+                </Link>
 
-                <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                     <FiBox className="text-3xl" />
 
                     <div className="text-sm w-full">
@@ -159,9 +160,9 @@ const Create: React.FC = () => {
                     <div className="cursor-pointer">
                         <FiTrash2 className="text-3xl" />
                     </div>
-                </div>
+                </Link>
 
-                <div className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
+                <Link href={"/create/new/sources"} className="border border-1 border-gray-200 rounded-lg p-4 flex items-center gap-x-6 hover:bg-gray-200 hover:cursor-pointer">
                     <FiBox className="text-3xl" />
 
                     <div className="text-sm w-full">
@@ -172,11 +173,11 @@ const Create: React.FC = () => {
                     <div className="cursor-pointer">
                         <FiTrash2 className="text-3xl" />
                     </div>
-                </div>
+                </Link>
 
             </div>
         </div>
     )
 }
 
-export default Create;
+export default SourcesPage;

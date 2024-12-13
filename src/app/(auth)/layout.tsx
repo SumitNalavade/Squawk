@@ -14,7 +14,7 @@ export default function RootLayout({
         <html lang="en">
             <body className="flex flex-col min-h-screen">
                 { /* Navbar */}
-                <div className="text-gray-500 px-4 py-6 font-bold portrait:sticky">
+                <div className="text-gray-500 px-4 py-4 font-bold portrait:sticky">
                     <div className="container mx-auto flex items-center justify-between">
                         {/* Left Items */}
                         <div className="flex space-x-8 items-center">
@@ -48,7 +48,7 @@ export default function RootLayout({
                 { /* Content Area */}
                 <main className="flex-grow flex items-center justify-center">
                     <section className="h-screen flex flex-col lg:flex-row w-full">
-                        <div className="flex flex-col justify-center items-center space-y-12 w-full lg:w-1/2 bg-[#2c2c2c] text-white font-bold px-8">
+                        <div className="flex flex-col justify-center items-center space-y-8 w-full lg:w-1/2 bg-[#2c2c2c] text-white font-bold px-8">
                             <div className="space-y-4 max-w-2xl">
                                 <div>
                                     <p className="text-5xl text-center leading-snug font-extrabold">Smarter Conversations, Simplified</p>
@@ -93,7 +93,7 @@ export default function RootLayout({
                 </main>
 
                 { /* Footer */}
-                <footer className="bg-gray-100 text-black px-4 py-6 font-bold">
+                <footer className="bg-gray-100 text-black px-4 py-4 font-bold">
                     <div className="container mx-auto flex justify-between">
                         <div className="flex flex-col items-center space-y-2">
                             <Image

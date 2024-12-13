@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex flex-col min-h-screen">
         { /* Navbar */}
-        <div className="text-gray-500 px-4 py-6 font-bold portrait:sticky">
+        <div className="text-gray-500 px-4 py-4 font-bold portrait:sticky">
           <div className="container mx-auto flex items-center justify-between">
             {/* Left Items */}
             <div className="flex space-x-8 items-center">
