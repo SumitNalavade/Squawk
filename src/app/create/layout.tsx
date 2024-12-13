@@ -31,7 +31,7 @@ export default function RootLayout({
                                 My Projects
                             </a>
 
-                            <Link href={"/signup"} className="bg-[#0085FF] text-white px-6 py-2 rounded-md">
+                            <Link href={"/create/new"} className="bg-[#0085FF] text-white px-6 py-2 rounded-md">
                                 New Project
                             </Link>
 
@@ -44,7 +44,7 @@ export default function RootLayout({
 
                 { /* Content Area */}
                 <main className="flex-grow flex items-center justify-center">
-                    <section className="h-full flex flex-col lg:flex-row w-full container max-w-5xl">
+                    <section className="h-full flex flex-col lg:flex-row w-full">
                         {children}
                     </section>
                 </main>

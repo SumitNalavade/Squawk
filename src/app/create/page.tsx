@@ -2,7 +2,7 @@ import { FiBox, FiTrash2 } from "react-icons/fi";
 
 const Create: React.FC = () => {
     return (
-        <div className="w-full flex flex-col items-center py-4 space-y-4">
+        <div className="w-full flex flex-col items-center py-4 space-y-4 container max-w-5xl mx-auto">
             <div className="flex px-4 py-3 rounded-xl border border-gray-200 overflow-hidden w-full mx-auto font-[sans-serif]">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
                     className="fill-gray-600 mr-3 rotate-90">
