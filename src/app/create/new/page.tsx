@@ -20,9 +20,9 @@ const Create: React.FC = () => {
                     </button>
                 </div>
 
-                <div className="grid grid-cols-3 gap-6">
-                    <div className="space-y-1 text-[#2c2c2c]">
-                        <div className="p-10 bg-gray-200 rounded-2xl flex justify-center items-center">
+                <div className="grid grid-cols-3 gap-6 text-[#2c2c2c]">
+                    <div className="space-y-1">
+                        <div className="p-10 bg-gray-200 rounded-2xl flex justify-center items-center cursor-pointer">
                             <RiMovieFill className="text-4xl" />
                         </div>
 
@@ -30,7 +30,7 @@ const Create: React.FC = () => {
                     </div>
 
                     <div className="space-y-1">
-                        <div className="p-10 border rounded-2xl flex justify-center items-center">
+                        <div className="p-10 border rounded-2xl flex justify-center items-center cursor-pointer hover:bg-gray-200">
                             <RiImage2Line className="text-4xl" />
                         </div>
 
@@ -38,7 +38,7 @@ const Create: React.FC = () => {
                     </div>
 
                     <div className="space-y-1">
-                        <div className="p-10 border rounded-2xl flex justify-center items-center">
+                        <div className="p-10 border rounded-2xl flex justify-center items-center cursor-pointer hover:bg-gray-200">
                             <RiFileTextLine className="text-4xl" />
                         </div>
 
@@ -46,7 +46,7 @@ const Create: React.FC = () => {
                     </div>
 
                     <div className="space-y-1">
-                        <div className="p-10 border rounded-2xl flex justify-center items-center">
+                        <div className="p-10 border rounded-2xl flex justify-center items-center cursor-pointer hover:bg-gray-200">
                             <RiFileTextLine className="text-4xl" />
                         </div>
 
@@ -57,7 +57,7 @@ const Create: React.FC = () => {
 
             </div>
 
-            <div className="w-full flex justify-center items-center">
+            <div className="w-full flex justify-center items-center border rounded-xl">
                 <RiMovieFill className="text-6xl text-[#2c2c2c]" />
             </div>
         </div>

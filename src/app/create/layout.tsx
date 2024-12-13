@@ -44,7 +44,7 @@ export default function RootLayout({
 
                 { /* Content Area */}
                 <main className="flex-grow flex items-center justify-center">
-                    <section className="h-full flex flex-col lg:flex-row w-full">
+                    <section className="h-full flex flex-col lg:flex-row w-full py-4">
                         {children}
                     </section>
                 </main>
