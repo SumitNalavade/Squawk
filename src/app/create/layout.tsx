@@ -27,11 +27,11 @@ export default function RootLayout({
 
                         {/* Right Item */}
                         <div className="flex space-x-8 items-center text-sm">
-                            <a href="#" className="hover:text-zinc-900 font-normal">
+                            <a href="#" className="hover:text-gray-600 font-normal">
                                 My Projects
                             </a>
 
-                            <Link href={"/create/new"} className="bg-[#0085FF] text-white px-6 py-2 rounded-md">
+                            <Link href={"/create/new"} className="bg-[#2c2c2c] text-white px-6 py-2 rounded-md">
                                 New Project
                             </Link>
 

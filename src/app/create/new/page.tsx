@@ -15,18 +15,18 @@ const Create: React.FC = () => {
                 </div>
 
                 <div>
-                    <button className="bg-[#0085FF] text-white px-6 py-2 rounded-lg w-full">
+                    <button className="bg-[#2c2c2c] text-white px-6 py-2 rounded-lg w-full">
                         Upload
                     </button>
                 </div>
 
                 <div className="grid grid-cols-3 gap-6">
-                    <div className="space-y-1">
-                        <div className="p-10 bg-blue-100 rounded-2xl flex justify-center items-center">
-                            <RiMovieFill className="text-4xl text-blue-500" />
+                    <div className="space-y-1 text-[#2c2c2c]">
+                        <div className="p-10 bg-gray-200 rounded-2xl flex justify-center items-center">
+                            <RiMovieFill className="text-4xl" />
                         </div>
 
-                        <p className="text-xs text-center font-bold text-blue-500">lecture_14_recording.mov</p>
+                        <p className="text-xs text-center font-bold">lecture_14_recording.mov</p>
                     </div>
 
                     <div className="space-y-1">
@@ -58,7 +58,7 @@ const Create: React.FC = () => {
             </div>
 
             <div className="w-full flex justify-center items-center">
-                <RiMovieFill className="text-6xl text-blue-500" />
+                <RiMovieFill className="text-6xl text-[#2c2c2c]" />
             </div>
         </div>
     )

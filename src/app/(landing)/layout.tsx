@@ -33,19 +33,19 @@ export default function RootLayout({
                 />
               </Link>
 
-              <a href="#" className="hover:text-zinc-900">
+              <a href="#" className="hover:text-gray-600">
                 Product
               </a>
-              <a href="#" className="hover:text-zinc-900">
+              <a href="#" className="hover:text-gray-600">
                 Resources
               </a>
-              <a href="#" className="hover:text-zinc-900">
+              <a href="#" className="hover:text-gray-600">
                 Pricing
               </a>
             </div>
 
             {/* Right Item */}
-            <Link href={"/signup"} className="bg-[#0085FF] text-white px-8 py-2 rounded-md">
+            <Link href={"/signup"} className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
               Try it for free
             </Link>
           </div>
@@ -77,21 +77,21 @@ export default function RootLayout({
 
             <div className='w-full flex justify-evenly font-normal'>
               <ul>
-                <p className='text-xl pb-2 font-bold text-[#0085FF]'>Use Cases</p>
+                <p className='text-xl pb-2 font-bold text-[#2c2c2c]'>Use Cases</p>
                 <li className='text-sm'>Customer Service</li>
                 <li className='text-sm'>Small Business</li>
                 <li className='text-sm'>Educators</li>
               </ul>
 
               <ul>
-                <p className='text-xl pb-2 font-bold text-[#0085FF]'>Resources</p>
+                <p className='text-xl pb-2 font-bold text-[#2c2c2c]'>Resources</p>
                 <li className='text-sm'>Demo</li>
                 <li className='text-sm'>Tutorial</li>
                 <li className='text-sm'>Documentation</li>
               </ul>
 
               <ul>
-                <p className='text-xl pb-2 font-bold text-[#0085FF]'>Contact</p>
+                <p className='text-xl pb-2 font-bold text-[#2c2c2c]'>Contact</p>
                 <li className='text-sm'>Email</li>
                 <li className='text-sm'>LinkedIn</li>
                 <li className='text-sm'>Instagram</li>
