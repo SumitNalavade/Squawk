@@ -17,7 +17,7 @@ const CustomTone: React.FC = () => {
                     <IoCodeSharp className="text-2xl font-bold" />
 
                     <p>{text}</p>
-                </div>
+                </div>q
             </div>
 
             <div className="w-2/5 flex justify-center items-center border rounded-xl">
