@@ -1,4 +1,3 @@
-import { RiMovieFill } from "react-icons/ri";
 import { BiSupport, BiCheck, BiBriefcaseAlt, BiPlus } from "react-icons/bi";
 import { PiHandWaving } from "react-icons/pi";
 import { TbHorseToy } from "react-icons/tb";
@@ -8,7 +7,7 @@ const TonePage: React.FC = () => {
         <div className="h-full flex mx-6">
             <div className="w-3/5 px-6 space-y-4">
                 <div>
-                    <p className="font-bold text-xl">Tone</p>
+                    <p className="font-bold text-2xl">Tone</p>
                     <p className="text-gray-500 text-sm">Customize how your agent responds to questions</p>
                 </div>
 
