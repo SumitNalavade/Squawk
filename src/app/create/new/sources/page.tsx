@@ -1,6 +1,6 @@
 import { RiMovieFill, RiImage2Line, RiFileTextLine } from "react-icons/ri";
 
-const Create: React.FC = () => {
+const SourcesPage: React.FC = () => {
     return (
         <div className="h-full flex mx-6">
             <div className="w-full px-6 space-y-4">
@@ -64,4 +64,4 @@ const Create: React.FC = () => {
     )
 }
 
-export default Create;
+export default SourcesPage;
