@@ -9,7 +9,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className="flex flex-col min-h-screen w-full">
+        <div className="flex flex-col w-full">
             <main className="flex-grow flex">
                 <div className="h-full space-y-4">
                     <div className="p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-200 hover:cursor-pointer">
