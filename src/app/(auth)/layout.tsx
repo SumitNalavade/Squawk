@@ -39,7 +39,7 @@ export default function RootLayout({
                         </div>
 
                         {/* Right Item */}
-                        <Link href={"/signup"} className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
+                        <Link href={"/signup"} className="bg-gradient-to-br from-[#d474f9] to-[#d6b2ff] text-white px-8 py-2 rounded-md">
                             Try it for free
                         </Link>
                     </div>
@@ -48,7 +48,7 @@ export default function RootLayout({
                 { /* Content Area */}
                 <main className="flex-grow flex items-center justify-center">
                     <section className="h-screen flex flex-col lg:flex-row w-full">
-                        <div className="flex flex-col justify-center items-center space-y-8 w-full lg:w-1/2 bg-[#2c2c2c] text-white font-bold px-8">
+                        <div className="flex flex-col justify-center items-center space-y-8 w-full lg:w-1/2 bg-gradient-to-b from-[#dc84ff] to-[#69e6ff] text-white font-bold px-8">
                             <div className="space-y-4 max-w-2xl">
                                 <div>
                                     <p className="text-5xl text-center leading-snug font-extrabold">Smarter Conversations, Simplified</p>

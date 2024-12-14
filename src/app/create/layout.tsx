@@ -31,7 +31,7 @@ export default function RootLayout({
                                 My Projects
                             </Link>
 
-                            <Link href={"/create/new/sources"} className="bg-[#2c2c2c] text-white px-6 py-2 rounded-md">
+                            <Link href={"/create/new/sources"} className="bg-gradient-to-b from-[#d474f9] to-[#d6b2ff] text-white px-6 py-2 rounded-md">
                                 New Project
                             </Link>
 

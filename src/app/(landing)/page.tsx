@@ -9,7 +9,7 @@ export default function Home() {
           
           { /* Hero */ }
           <div className="w-full space-y-2">
-            <h1 className="text-6xl text-center leading-tight text-[#2c2c2c]">Add AI Chat To Your Website In Minutes</h1>
+            <h1 className="text-6xl text-center leading-tight bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">Add AI Chat To Your Website In Minutes</h1>
 
             <div className="text-gray-500">
               <p className="text-center">Create custom AI agents trained on your content.</p>
@@ -21,7 +21,7 @@ export default function Home() {
                 View Demo
               </button>
 
-              <Link href="/signup" className="bg-[#2c2c2c] text-white px-10 py-2 rounded-md">
+              <Link href="/signup" className="bg-gradient-to-br from-[#7fd3ff] to-[#77cdfb] text-white px-10 py-2 rounded-md">
                 Get Started
               </Link>
             </div>
@@ -51,7 +51,7 @@ export default function Home() {
         { /* Conversationability Demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
-            <div className='text-[#2c2c2c]'>
+            <div className='bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent'>
               <h2 className="text-5xl">Turn Your Content Into</h2>
               <h2 className="text-5xl">Conversations</h2>              
             </div>
@@ -76,7 +76,7 @@ export default function Home() {
         { /* Human like conversation demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
-            <h2 className="text-5xl text-[#2c2c2c]">Natural Conversations</h2>
+            <h2 className="text-5xl bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">Natural Conversations</h2>
 
             <div className="text-gray-500">
               <p>Deliver engaging, human-like interactions with AI-powered assistants that</p>
@@ -97,7 +97,7 @@ export default function Home() {
       { /* Integration demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
-            <h2 className="text-5xl text-[#2c2c2c]">Effortless Integration</h2>
+            <h2 className="text-5xl bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">Effortless Integration</h2>
 
             <div className="text-gray-500">
               <p>Seamlessly add your AI assistant to your website or platform with just</p>
@@ -118,7 +118,7 @@ export default function Home() {
         { /* Security demo */ }
         <div className="w-full space-y-6 font-bold pt-24">
           <div className='space-y-2'>
-            <h2 className="text-5xl text-[#2c2c2c]">Secure By Design</h2>
+            <h2 className="text-5xl bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">Secure By Design</h2>
 
             <div className="text-gray-500">
               <p>Keep your data safe with built-in security features that prioritize privacy</p>
@@ -139,7 +139,7 @@ export default function Home() {
         { /* How it works */ }
         <div className="w-full space-y-6 font-bold pt-24 mb-20">
           <div className='space-y-2'>
-            <h2 className="text-5xl text-center text-[#2c2c2c]">How It Works</h2>
+            <h2 className="text-5xl text-center bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">How It Works</h2>
 
             <div className="text-gray-500 text-center">
               <p>We do the heavy lifting so you don&apos;t have to.</p>
@@ -210,7 +210,7 @@ export default function Home() {
         <div className="w-full space-y-6 space-x-6 font-bold flex">
           <div className='w-full flex flex-col '>
             <div className='h-80 flex flex-col pt-20'>
-              <h2 className="text-5xl w-full text-[#2c2c2c]">Solutions For Every Need</h2>
+              <h2 className="text-5xl w-full bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">Solutions For Every Need</h2>
             </div>
 
             <div className='h-full'>
@@ -257,14 +257,14 @@ export default function Home() {
         { /* Call to action */ }
         <div className="w-full space-y-6 font-bold pt-24 mb-20 flex flex-col justify-center items-center">
           <div className='space-y-2'>
-            <h2 className="text-6xl text-center text-[#2c2c2c]">Work Smarter, Not Harder</h2>
+            <h2 className="text-6xl text-center bg-gradient-to-br from-[#dc84ff] to-[#69e6ff] bg-clip-text text-transparent">Work Smarter, Not Harder</h2>
 
             <div className="text-gray-500 text-center">
               <p>Start creating smart AI agents to captivate visitors, answer questions and boost engagement.</p>
             </div>
           </div>
 
-          <Link href={"/signup"} className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
+          <Link href={"/signup"} className="bg-gradient-to-br from-[#7fd3ff] to-[#77cdfb] text-white px-8 py-2 rounded-md">
             Get Started For Free Now - No Coding Required!
           </Link>
         </div>

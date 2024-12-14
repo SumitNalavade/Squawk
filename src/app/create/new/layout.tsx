@@ -18,19 +18,19 @@ export default function RootLayout({
         <div className="flex flex-col w-full">
             <main className="flex-grow flex">
                 <div className="h-full space-y-4">
-                    <Link href={"/create/new/sources"} className={`p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-200 hover:cursor-pointer ${pathname === "/create/new/sources" ? "text-blue-500" : ""}`}>
+                    <Link href={"/create/new/sources"} className={`p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-100 hover:cursor-pointer ${pathname === "/create/new/sources" ? "text-[#69e6ff]" : ""}`}>
                         <FiBook className="text-3xl" />
 
                         <p>Sources</p>
                     </Link>
 
-                    <Link href={"/create/new/tone"} className={`p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-200 hover:cursor-pointer ${pathname === "/create/new/tone" ? "text-blue-500" : ""}`}>
+                    <Link href={"/create/new/tone"} className={`p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-100 hover:cursor-pointer ${pathname === "/create/new/tone" || pathname === "/create/new/tone/custom" ? "text-[#69e6ff]" : ""}`}>
                         <RiSpeakAiLine className="text-3xl" />
 
                         <p>Tone</p>
                     </Link>
 
-                    <Link href={"/create/new/share"} className={`p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-200 hover:cursor-pointer ${pathname === "/create/new/share" ? "text-blue-500" : ""}`}>
+                    <Link href={"/create/new/share"} className={`p-4 flex flex-col gap-y-1 items-center justify-center hover:bg-gray-100 hover:cursor-pointer ${pathname === "/create/new/share" ? "text-[#69e6ff]" : ""}`}>
                         <FiShare2 className="text-3xl" />
 
                         <p>Share</p>

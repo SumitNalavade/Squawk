@@ -45,7 +45,7 @@ export default function RootLayout({
             </div>
 
             {/* Right Item */}
-            <Link href={"/signup"} className="bg-[#2c2c2c] text-white px-8 py-2 rounded-md">
+            <Link href={"/signup"} className="bg-gradient-to-b from-[#d474f9] to-[#d6b2ff] text-white px-8 py-2 rounded-md">
               Try it for free
             </Link>
           </div>

@@ -4,6 +4,11 @@ const SourcesPage: React.FC = () => {
     return (
         <div className="h-full flex mx-6">
             <div className="w-full px-6 space-y-4">
+                <div>
+                    <p className="font-bold text-2xl">Sources</p>
+                    <p className="text-gray-500 text-sm">Provide your agent with context</p>
+                </div>
+
                 <div className="flex px-4 py-2 rounded-xl border border-gray-200 overflow-hidden w-full mx-auto font-[sans-serif]">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
                         className="fill-gray-600 mr-3 rotate-90">
@@ -15,14 +20,14 @@ const SourcesPage: React.FC = () => {
                 </div>
 
                 <div>
-                    <button className="bg-[#2c2c2c] text-white px-6 py-2 rounded-lg w-full">
+                    <button className="bg-gradient-to-b from-[#7fd3ff] to-[#77cdfb] text-white font-bold px-6 py-2 rounded-lg w-full">
                         Upload
                     </button>
                 </div>
 
                 <div className="grid grid-cols-3 gap-6 text-[#2c2c2c]">
                     <div className="space-y-1">
-                        <div className="p-10 bg-gray-200 rounded-2xl flex justify-center items-center cursor-pointer">
+                        <div className="p-10 bg-sky-100 rounded-2xl flex justify-center items-center cursor-pointer">
                             <RiMovieFill className="text-4xl" />
                         </div>
 

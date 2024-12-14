@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BiSupport, BiCheck, BiBriefcaseAlt, BiPlus } from "react-icons/bi";
 import { PiHandWaving } from "react-icons/pi";
 import { TbHorseToy } from "react-icons/tb";
@@ -12,7 +13,7 @@ const TonePage: React.FC = () => {
                 </div>
 
                 <div className="grid grid-cols-3 gap-6 text-[#2c2c2c]">
-                    <div className="p-4 space-y-2 border rounded-2xl cursor-pointer hover:bg-gray-200 bg-gray-200">
+                    <div className="p-4 space-y-2 border rounded-2xl cursor-pointer bg-sky-100">
                         <div className="flex gap-x-2">
                             <BiSupport className="text-2xl" />
 
@@ -62,15 +63,17 @@ const TonePage: React.FC = () => {
                         <p className="text-xs text-gray-400">Fun and friendly, without sarcasm or cringe</p>
                     </div>
 
-                    <div className="p-4 border space-y-2 rounded-2xl cursor-pointer hover:bg-gray-200">
-                        <div className="flex gap-x-2">
-                            <BiPlus className="text-2xl" />
+                    <Link href={"/create/new/tone/custom"}>
+                        <div className="p-4 border space-y-2 rounded-2xl cursor-pointer hover:bg-gray-200">
+                            <div className="flex gap-x-2">
+                                <BiPlus className="text-2xl" />
 
-                            <p className="font-bold">Custom</p>
+                                <p className="font-bold">Custom</p>
+                            </div>
+
+                            <p className="text-xs text-gray-400">Choose your own tone settings for your assistant</p>
                         </div>
-
-                        <p className="text-xs text-gray-400">Choose your own tone settings for your assistant</p>
-                    </div>
+                    </Link>
                 </div>
 
             </div>
